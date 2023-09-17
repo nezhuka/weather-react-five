@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className='container'>
+      <div className="container">
         <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
@@ -22,6 +22,14 @@ function App() {
             rel="noreferrer"
           >
             open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://shiny-marzipan-f4552e.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netlify.
           </a>
         </footer>
       </div>
