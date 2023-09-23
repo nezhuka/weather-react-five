@@ -27,7 +27,7 @@ let days = ["Sun",
         <div>
          <div className="WeatherForecast-day">{day()}</div>
  <WeatherIcon code={props.data.condition.icon_url} size={36}/>
-<img  class="fa-sm" src=
+<img  class="forecastIcon" src=
 {props.data.condition.icon_url} />
           
           <div className="WeatherForecast-temperatures">
