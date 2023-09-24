@@ -21,7 +21,7 @@ let days = ["Sun",
 "Thu",
 "Fri",
 "Sat"];
-    return days [day];
+    return days[day];
 }
     return (
         <div>
